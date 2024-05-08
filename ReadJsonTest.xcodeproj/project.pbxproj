@@ -11,8 +11,10 @@
 		9DC258C32BE9331B006B3C42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC258C22BE9331B006B3C42 /* ContentView.swift */; };
 		9DC258C52BE9331E006B3C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC258C42BE9331E006B3C42 /* Assets.xcassets */; };
 		9DC258C82BE9331E006B3C42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DC258C72BE9331E006B3C42 /* Preview Assets.xcassets */; };
-		9DC258D12BE93714006B3C42 /* ReadJsonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC258D02BE93713006B3C42 /* ReadJsonData.swift */; };
 		9DC258D32BE94B6E006B3C42 /* output.json in Resources */ = {isa = PBXBuildFile; fileRef = 9DC258D22BE94B6E006B3C42 /* output.json */; };
+		9DD36C2E2BEBBEB60024A9E0 /* output2.json in Resources */ = {isa = PBXBuildFile; fileRef = 9DD36C2D2BEBBEB60024A9E0 /* output2.json */; };
+		9DD36C302BEBBEE20024A9E0 /* ReadJsonData2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD36C2F2BEBBEE20024A9E0 /* ReadJsonData2.swift */; };
+		9DD36C342BEBE3EB0024A9E0 /* JokeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DD36C332BEBE3EB0024A9E0 /* JokeDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +23,10 @@
 		9DC258C22BE9331B006B3C42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9DC258C42BE9331E006B3C42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DC258C72BE9331E006B3C42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9DC258D02BE93713006B3C42 /* ReadJsonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadJsonData.swift; sourceTree = "<group>"; };
 		9DC258D22BE94B6E006B3C42 /* output.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = output.json; sourceTree = "<group>"; };
+		9DD36C2D2BEBBEB60024A9E0 /* output2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = output2.json; sourceTree = "<group>"; };
+		9DD36C2F2BEBBEE20024A9E0 /* ReadJsonData2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadJsonData2.swift; sourceTree = "<group>"; };
+		9DD36C332BEBE3EB0024A9E0 /* JokeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,12 +59,14 @@
 		9DC258BF2BE9331B006B3C42 /* ReadJsonTest */ = {
 			isa = PBXGroup;
 			children = (
+				9DD36C2D2BEBBEB60024A9E0 /* output2.json */,
 				9DC258D22BE94B6E006B3C42 /* output.json */,
 				9DC258C02BE9331B006B3C42 /* ReadJsonTestApp.swift */,
 				9DC258C22BE9331B006B3C42 /* ContentView.swift */,
+				9DD36C332BEBE3EB0024A9E0 /* JokeDetailView.swift */,
 				9DC258C42BE9331E006B3C42 /* Assets.xcassets */,
 				9DC258C62BE9331E006B3C42 /* Preview Content */,
-				9DC258D02BE93713006B3C42 /* ReadJsonData.swift */,
+				9DD36C2F2BEBBEE20024A9E0 /* ReadJsonData2.swift */,
 			);
 			path = ReadJsonTest;
 			sourceTree = "<group>";
@@ -134,6 +140,7 @@
 				9DC258D32BE94B6E006B3C42 /* output.json in Resources */,
 				9DC258C82BE9331E006B3C42 /* Preview Assets.xcassets in Resources */,
 				9DC258C52BE9331E006B3C42 /* Assets.xcassets in Resources */,
+				9DD36C2E2BEBBEB60024A9E0 /* output2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,9 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DC258D12BE93714006B3C42 /* ReadJsonData.swift in Sources */,
+				9DD36C302BEBBEE20024A9E0 /* ReadJsonData2.swift in Sources */,
 				9DC258C32BE9331B006B3C42 /* ContentView.swift in Sources */,
 				9DC258C12BE9331B006B3C42 /* ReadJsonTestApp.swift in Sources */,
+				9DD36C342BEBE3EB0024A9E0 /* JokeDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
