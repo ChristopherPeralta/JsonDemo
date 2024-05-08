@@ -1,0 +1,12 @@
+[
+    {
+        "id": "ABC123",
+        "joke": "¿Qué le dice un jardinero a otro? ¡Hagamos raíces juntos!",
+        "status": 200
+    },
+    {
+        "id": "XYZ456",
+        "joke": "¿Por qué los pájaros no usan Facebook? ¡Porque ya tienen Twitter!",
+        "status": 200
+    }
+]
